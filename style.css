@@ -1,0 +1,41 @@
+
+.jumbotron {
+    padding: 20px;
+    text-align: center;
+    background: #7ae2cd;
+    color:white;
+    font-size: 15px;
+  }
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  .main {
+    flex: 30%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 80%;
+    padding: 20px;
+  }
+  
+
+  .footer {
+    display: flex;
+    width: 100%;
+    padding: 3px;
+    justify-content: center;
+    align-content:flex-end;
+    background: #333;
+  }
